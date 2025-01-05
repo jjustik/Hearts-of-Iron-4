@@ -1,0 +1,292 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Playwrite+AU+SA&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap&subset=cyrillic);
+@import url(https://fonts.googleapis.com/css2?family=Bad+Script&display=swap&subset=cyrillic);
+
+.text-with-border {
+    padding: 10px;           /* Внутренний отступ */
+    display: inline-block;   /* Блок только вокруг текста */
+    border-radius: 7px;
+    background-color: #E1C69F; /* Фон внутри границы */
+    flex: 1;                     /* Текст занимает оставшееся пространство */
+    margin-right: 20px;          /* Отступ справа для текста */
+    max-width: 800px;        /* Максимальная ширина, после которой текст будет переноситься */
+    max-height: 732px;
+    overflow-y: auto;
+    scroll-behavior: smooth; /* Плавная прокрутка */
+    word-wrap: break-word;}   /* Перенос длинных слов */
+
+/* Изменение стиля полосы прокрутки */
+.text-with-border::-webkit-scrollbar {
+    width: 10px; /* Ширина полосы прокрутки */
+}
+
+.text-with-border::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Цвет фона трека */
+    border-radius: 10px; /* Закругление углов */
+}
+
+.text-with-border::-webkit-scrollbar-thumb {
+    /*background: #007BFF; /* Цвет ползунка */
+    background: #6A533A; /* Цвет ползунка */
+    border-radius: 10px; /* Закругление углов ползунка */
+}
+
+.text-with-border::-webkit-scrollbar-thumb:hover {
+    background: #3B3E36; /* Цвет ползунка при наведении */
+}
+
+.Image1 {
+    max-height: 381px;
+    max-width: 490px;
+    position: absolute;
+    top: 172px;}
+
+.image_desc {
+    font-family: 'Raleway';
+    font-weight: 600;
+    padding: 8px;
+    left: 870px;
+    position: absolute;
+    top: 550px; /* Помещаем текст прямо под картинку */
+    background-color: #F5DEB3;
+    display: inline-block;
+    max-width: 450px;
+    flex: 1;  
+    overflow-y: auto;
+    word-wrap: break-word;
+    border-radius: 4px;}
+
+.main_text {
+    font-size: 24px;
+}
+
+.title-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    padding-left: 250px;
+    padding-top: 10px;
+}
+
+.text-in {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 17px;
+}
+
+.text-in-loc {
+    padding-left: 5px;
+}
+
+.text-in-loc2 {
+    padding-top: 15px;
+}
+
+.text-in-loc3 {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.spec-font {
+    font-family: 'Caveat', sans-serif;
+    font-size: 40px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.dop1 {
+    position: absolute;
+    left: 303px;
+    padding-top: 25px;
+}
+
+.dop2 {
+    position: absolute;
+    left: 635px;
+    padding-top: 61.5px;
+}
+
+.dop3 {
+    position: absolute;
+    left: 916px;
+    padding-top: 25px;
+}
+
+.dop4 {
+    position: absolute;
+    top: 2200px;
+    left: 303px;
+    padding-top: 25px;
+}
+
+.dop5 {
+    position: absolute;
+    left: 635px;
+    top: 2200px;
+    padding-top: 61.5px;
+}
+
+.dop6 {
+    position: absolute;
+    left: 916px;
+    top: 2200px;
+    padding-top: 25px;
+}
+
+.dop7 {
+    position: absolute;
+    top: 2660px;
+    left: 303px;
+    padding-top: 25px;
+}
+
+.dop8 {
+    position: absolute;
+    top: 2660px;
+    left: 635px;
+    padding-top: 61.5px;
+}
+
+.dop9 {
+    position: absolute;
+    top: 2660px;
+    left: 916px;
+    padding-top: 25px;
+}
+
+.skala-desc-dop {
+    padding-left: 37px;
+}
+
+.hruo-desc-dop {
+    padding-left: 26px;
+}
+
+.loc-loc {
+    position: absolute;
+    top: 3030px;
+}
+
+.iframe-loc-loc {
+    position: absolute;
+    top: 3100px;
+    left: 25px;
+}
+
+.spartak-loc {
+    position: absolute;
+    top: 3150px;
+    left: 1150px;
+}
+
+.feedback-loc {
+    position: absolute;
+    top: 3750px;
+    left: 25px;
+}
+
+.feedback-word {
+    color: #B8860B;
+}
+
+.hruo-monkey-desc {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    left: 375px;
+    top: 2554px;
+}
+
+.hruo-desc {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    left: 950px;
+    top: 2554px;
+}
+
+.sanya-monkey-desc {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    left: 375px;
+    top: 3014px;
+}
+
+.sanya-desc {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    left: 1015px;
+    top: 3014px;
+}
+
+.skala-desc {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    left: 995px;
+    top: 2100px;
+}
+
+.foxed-desc {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    left: 280px;
+    top: 2100px;
+}
+
+.logo-area {
+    background-color: #F5DEB3;     /* Белый фон для текстовой области */ 
+    margin-top: 50px;              /* Черный текст */
+    padding: 20px;              /* Внутренний отступ */
+    border-radius: 5px;         /* Скругление углов */
+    width: 70px;           /* Максимальная ширина текстовой области */
+    overflow-y: auto;           /* Вертикальная прокрутка, если контент превышает высоту */
+    height: 235px;              /* Задайте высоту текстовой области */
+    position: absolute;
+    right: 0px;
+    top: 130px;
+}
+
+.inst-image-round {
+    border-radius: 5px;
+    margin-top: 19px;
+    margin-left: 3px;}
+
+.dc-image-round {
+    border-radius: 5px;
+    margin-top: 19px;
+    margin-left: 3px;}
+
+h1 {
+    font-family: 'Playfair Display' sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: #4D4D4D;
+    margin: 20px 0;
+}
+
+.title-loc {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.h2 {
+    font-family: 'Roboto Concerned', sans-serif;
+    opacity: calc(1);
+}
+
+h2 {
+    font-family: 'Roboto Concerned', sans-serif;
+    opacity: calc(0.7);
+}
